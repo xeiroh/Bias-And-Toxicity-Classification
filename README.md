@@ -4,7 +4,7 @@
 
 ## 📘 Overview
 
-This project explores algorithmic bias in toxic comment classification using a deep learning model on the Jigsaw Unintended Bias in Toxicity Classification dataset. The project aims to understand and mitigate the unintended associations between identity terms (e.g., “gay”, “muslim”, “black”) and toxicity predictions.
+This project explores algorithmic bias in toxic comment classification using a deep learning model on the Jigsaw Unintended Bias in Toxicity Classification dataset. The project aims to understand and mitigate the unintended associations between identity terms and toxicity predictions.
 
 ---
 
