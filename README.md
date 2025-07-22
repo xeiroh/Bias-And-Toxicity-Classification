@@ -1,3 +1,6 @@
+# ⚖️ Bias and Toxicity Classification using LSTM
+
+
 ## 📊 Results
 
 - **Final AUC**: 0.9368 (vs. 0.94734 leaderboard best)
@@ -27,7 +30,6 @@
 
 ---
 
-# ⚖️ Bias and Toxicity Classification using LSTM
 
 ## 📘 Overview
 
