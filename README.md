@@ -73,12 +73,19 @@ Custom loss functions were tested to penalize unfair subgroup performance and mi
 | white           | 0.873  | 0.977  | 0.867  |
 | female          | 0.935  | 0.970  | 0.944  |
 
+
+<img width="485" height="486" alt="Screenshot 2025-07-21 at 9 19 20 PM" src="https://github.com/user-attachments/assets/b7133f4e-034b-46b0-b8a8-87f0331eb2d9" />
+
+<img width="559" height="475" alt="Screenshot 2025-07-21 at 9 20 11 PM" src="https://github.com/user-attachments/assets/4b2fb803-fd23-4aec-bfa0-e73d3a081cf8" />
+
 ---
 
 ## 🔍 Model Interpretability
 
 - **SHAP Summary Plot** revealed concerning feature importance for words like “black”, “white”, “trump”
 - These terms correlated strongly with toxicity due to dataset imbalance, showing the model learns unintended associations
+  
+<img width="518" height="591" alt="Screenshot 2025-07-21 at 9 20 39 PM" src="https://github.com/user-attachments/assets/1e82b84a-f238-403b-b6d5-0b5818793cf1" />
 
 ---
 
