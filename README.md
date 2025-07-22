@@ -75,7 +75,6 @@ Custom loss functions were tested to penalize unfair subgroup performance and mi
 
 
 <img width="485" height="486" alt="Screenshot 2025-07-21 at 9 19 20 PM" src="https://github.com/user-attachments/assets/b7133f4e-034b-46b0-b8a8-87f0331eb2d9" />
-
 <img width="559" height="475" alt="Screenshot 2025-07-21 at 9 20 11 PM" src="https://github.com/user-attachments/assets/4b2fb803-fd23-4aec-bfa0-e73d3a081cf8" />
 
 ---
