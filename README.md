@@ -1,19 +1,19 @@
-# ⚖️ Bias and Toxicity Classification using LSTM
+#  Bias and Toxicity Classification using LSTM
 
 
-## 📘 Overview
+##  Overview
 
 This project explores algorithmic bias in toxic comment classification using a deep learning model on the Jigsaw Unintended Bias in Toxicity Classification dataset. The project aims to understand and mitigate the unintended associations between identity terms and toxicity predictions.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build a fair and effective text classification model that predicts comment toxicity, while analyzing the impact of sensitive identity terms and exploring fairness-aware modeling approaches.
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - **Source**: Jigsaw / Kaggle / Civil Comments (via UC Berkeley’s Online Hate Index)
 - **Size**: ~2 million comments
@@ -28,7 +28,7 @@ The dataset is highly imbalanced with a majority of non-toxic comments. Identity
 
 ---
 
-## 🧹 Preprocessing
+##  Preprocessing
 
 - Lowercasing
 - Spelling correction
@@ -37,7 +37,7 @@ The dataset is highly imbalanced with a majority of non-toxic comments. Identity
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Due to compute constraints, a moderately complex **BiLSTM** model was used:
 
@@ -50,7 +50,7 @@ Custom loss functions were tested to penalize unfair subgroup performance and mi
 
 ---
 
-## 🧪 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Final Score**: Weighted average AUC across subgroups
 - **Subgroup AUCs**: Muslim, Black, White, Christian, etc.
@@ -88,7 +88,7 @@ Custom loss functions were tested to penalize unfair subgroup performance and mi
 ---
 
 
-## ✅ Conclusion
+##  Conclusion
 
 While the model achieved strong overall performance, analysis revealed **bias in decision-making**, especially for non-toxic comments referencing sensitive identities. SHAP interpretability highlighted the risks of unfair associations. Further research should focus on debiasing embeddings and expanding identity-balanced data.
 
